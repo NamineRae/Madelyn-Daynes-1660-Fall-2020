@@ -1,6 +1,6 @@
 //Maya ASCII 2020 scene
-//Name: Mavic_2_Pro_Drone_Attempt_2_Save_2.ma
-//Last modified: Sun, Oct 25, 2020 11:32:18 PM
+//Name: Mavic_2_Pro_Drone_Attempt_2_Save_3.ma
+//Last modified: Sun, Oct 25, 2020 11:32:36 PM
 //Codeset: 1252
 requires maya "2020";
 requires "mtoa" "4.0.0";
@@ -12,7 +12,7 @@ fileInfo "product" "Maya 2020";
 fileInfo "version" "2020";
 fileInfo "cutIdentifier" "202002251615-329d215872";
 fileInfo "osv" "Microsoft Windows 10 Technical Preview  (Build 18362)\n";
-fileInfo "UUID" "6DD22F28-4564-F498-4FEF-EAA3BB8C2C85";
+fileInfo "UUID" "17E5568B-4916-8777-B582-C39BA8D5E9E1";
 fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "38A64D24-40A0-8BAA-AEAE-E6A3463F6015";
@@ -23020,4 +23020,4 @@ connectAttr "groupId2.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId3.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId4.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId5.msg" ":initialShadingGroup.gn" -na;
-// End of Mavic_2_Pro_Drone_Attempt_2_Save_2.ma
+// End of Mavic_2_Pro_Drone_Attempt_2_Save_3.ma
