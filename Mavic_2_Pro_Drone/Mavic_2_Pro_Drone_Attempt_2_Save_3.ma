@@ -1,6 +1,6 @@
 //Maya ASCII 2020 scene
 //Name: Mavic_2_Pro_Drone_Attempt_2_Save_3.ma
-//Last modified: Sat, Oct 31, 2020 08:11:47 PM
+//Last modified: Sat, Oct 31, 2020 08:12:45 PM
 //Codeset: 1252
 requires maya "2020";
 requires "mtoa" "4.0.0";
@@ -12,13 +12,13 @@ fileInfo "product" "Maya 2020";
 fileInfo "version" "2020";
 fileInfo "cutIdentifier" "202002251615-329d215872";
 fileInfo "osv" "Microsoft Windows 10 Technical Preview  (Build 18362)\n";
-fileInfo "UUID" "D16FAAA5-4B2C-101E-367F-0CA898CE69ED";
+fileInfo "UUID" "C69B2F6D-45D0-0C0A-EE13-D9A5DCAA2557";
 fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "38A64D24-40A0-8BAA-AEAE-E6A3463F6015";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 2.2587028770812214 0.99586731591961219 1.8295506144254474 ;
-	setAttr ".r" -type "double3" 348.8616472481375 -1031.7999999999045 0 ;
+	setAttr ".t" -type "double3" -1.9640937302680725 0.60910042837447387 2.2064932703019582 ;
+	setAttr ".r" -type "double3" 356.06164724804501 -1118.9999999998658 2.5578807257573224e-16 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "4113F28F-40E1-183E-6E0E-1BB5535E66DD";
 	setAttr -k off ".v" no;
